@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import "base";
+
+//------------------------------
+// style
+// ------------------------------
+// header
+.main_heading{
+  background: url(../images/common/bg_header.png)no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: #74302e;
+  text-align: center;
+  padding: 30px 0;
+  max-width: 90%;
+  margin: 16px auto;
+  font-size: 24px;
+}
+
+@include mq-up(){
+  .main_heading{
+    margin: 24px auto 32px;
+  }
+}
+
+// layount
+
+.l-content{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@include mq-up(){
+  .l-content{
+    max-width: 1000px;
+  }
+}
+
+// demon_area
+
+.demon_area{
+  margin-bottom: 32px;
+  .c-img{
+    margin-bottom: 16px;
+  }
+  .history{
+    padding: 8px;
+    height: 80px;
+    background: #fafafa;
+    overflow: auto;
+    line-height: 1.7;
+    margin-bottom: 8px;
+  }
+}
+@include mq-up(){
+  .demon_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 52px;
+    height: 30vw;
+    .c-img{
+      width: 50%;
+      margin-right: 2%;
+      margin-bottom: 0;
+    }
+    .log{
+      width: 48%;
+    }
+    .history{
+      height: 100%;
+    } 
+  }
+}
+@include mq-up(lg){
+  .demon_area{
+    height: auto;
+    .c-img{
+      width: 50%;
+      margin-right: 2%;
+    }
+    .log{
+      width: 48%;
+    }
+    .history{
+      height: 300px;
+    } 
+  }
+}
+
+// hero_area
+
+.hero_area{
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  .c-img{
+    width: 48%;
+    margin-right: 2%;
+  }
+  .command_area{
+    width: 50%;
+    .c-command{
+      display: block;
+      font-size: 16px;
+      text-align: center;
+      width: 100%;
+      color: #ffffff;
+      padding: 8px;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s;
+      &:hover{
+        opacity: .7;
+      }
+      +.c-command{
+        margin-top: 8px;
+      }
+    }
+    .water{
+      background: #274a78;
+    }
+    .sun{
+      background: #ba2636;
+    }
+    .escape{
+      background: #333;
+    }
+  }
+}
+@include mq-up(){
+  .hero_area{
+    margin-bottom: 32px;
+    .command_area{
+      .c-command{
+        padding: 16px;
+      }
+    }
+  }
+}
+// getItem
+
+.getItem{
+  margin-bottom: 16px;
+  .getItem_text{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #333;
+    padding: 8px 0;
+  }
+  i{
+    color: #75312e;
+    font-size: 16px;
+    margin-right: 8px;
+  }
+}
+@include mq-up(){
+  .getItem{
+    .getItem_text{
+      font-size: 18px;
+    }
+    i{
+      font-size: 24px;
+    }
+  }
+}
+
+// footer
+footer{
+  width: 100%;
+  background: #0d0015;
+  color: #ffffff;
+  text-align: center;
+  padding: 4px 0;
+  font-size: 12px;
+}
+@include mq-up(){
+  footer{
+    padding: 8px 0;
+    font-size: 16px;
+  }  
+}
+
