@@ -211,12 +211,39 @@ body {
   }
 }
 
+.start_heading {
+  text-align: center;
+}
+
+.start_btn {
+  background: #333333;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  padding: 16px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  max-width: 320px;
+  margin: 16px auto 16px;
+}
+
+.start_btn:hover {
+  opacity: 0.7;
+}
+
 .demon_area {
   margin-bottom: 32px;
 }
 
 .demon_area .c-img {
   margin-bottom: 16px;
+}
+
+.demon_area .hit_point {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .demon_area .history {
@@ -226,6 +253,7 @@ body {
   overflow: auto;
   line-height: 1.7;
   margin-bottom: 8px;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 750px) {
@@ -241,11 +269,15 @@ body {
     margin-right: 2%;
     margin-bottom: 0;
   }
+  .demon_area .demon_area .hit_point {
+    font-size: 18px;
+  }
   .demon_area .log {
     width: 48%;
   }
   .demon_area .history {
     height: 100%;
+    font-size: 14px;
   }
 }
 
@@ -277,17 +309,22 @@ body {
   margin-right: 2%;
 }
 
+.hero_area .hit_point {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .hero_area .command_area {
   width: 50%;
 }
 
 .hero_area .command_area .c-command {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   width: 100%;
   color: #ffffff;
-  padding: 8px;
+  padding: 6px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -315,6 +352,9 @@ body {
 @media screen and (min-width: 750px) {
   .hero_area {
     margin-bottom: 32px;
+  }
+  .hero_area .hit_point {
+    font-size: 18px;
   }
   .hero_area .command_area .c-command {
     padding: 16px;

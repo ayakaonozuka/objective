@@ -1,0 +1,115 @@
+[03-May-2020 01:15:07 Asia/Tokyo] POSTされた！
+[03-May-2020 01:15:07 Asia/Tokyo] ゲームスタート！
+[03-May-2020 01:15:07 Asia/Tokyo] PHP Notice:  Undefined offset: 3 in /Users/ayaka/dev/objective/index.php on line 129
+[03-May-2020 01:15:07 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:15:07 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:15:07 Asia/Tokyo] PHP   2. init() /Users/ayaka/dev/objective/index.php:158
+[03-May-2020 01:15:07 Asia/Tokyo] PHP   3. createDemon() /Users/ayaka/dev/objective/index.php:142
+[03-May-2020 01:15:07 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Users/ayaka/dev/objective/index.php:130
+Stack trace:
+#0 /Users/ayaka/dev/objective/index.php(142): createDemon()
+#1 /Users/ayaka/dev/objective/index.php(158): init()
+#2 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 130
+[03-May-2020 01:17:57 Asia/Tokyo] POSTされた！
+[03-May-2020 01:17:57 Asia/Tokyo] ゲームスタート！
+[03-May-2020 01:17:57 Asia/Tokyo] PHP Notice:  Undefined offset: 7 in /Users/ayaka/dev/objective/index.php on line 129
+[03-May-2020 01:17:57 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:17:57 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:17:57 Asia/Tokyo] PHP   2. init() /Users/ayaka/dev/objective/index.php:158
+[03-May-2020 01:17:57 Asia/Tokyo] PHP   3. createDemon() /Users/ayaka/dev/objective/index.php:142
+[03-May-2020 01:17:57 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Users/ayaka/dev/objective/index.php:130
+Stack trace:
+#0 /Users/ayaka/dev/objective/index.php(142): createDemon()
+#1 /Users/ayaka/dev/objective/index.php(158): init()
+#2 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 130
+[03-May-2020 01:23:27 Asia/Tokyo] POSTされた！
+[03-May-2020 01:23:27 Asia/Tokyo] ゲームスタート！
+[03-May-2020 01:23:27 Asia/Tokyo] PHP Notice:  Undefined offset: 3 in /Users/ayaka/dev/objective/index.php on line 130
+[03-May-2020 01:23:27 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:23:27 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:23:27 Asia/Tokyo] PHP   2. init() /Users/ayaka/dev/objective/index.php:159
+[03-May-2020 01:23:27 Asia/Tokyo] PHP   3. createDemon() /Users/ayaka/dev/objective/index.php:143
+[03-May-2020 01:23:27 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Users/ayaka/dev/objective/index.php:131
+Stack trace:
+#0 /Users/ayaka/dev/objective/index.php(143): createDemon()
+#1 /Users/ayaka/dev/objective/index.php(159): init()
+#2 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 131
+[03-May-2020 01:23:44 Asia/Tokyo] PHP Notice:  Undefined index: demons in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:23:44 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:23:44 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:23:44 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getImg() on null in /Users/ayaka/dev/objective/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:23:47 Asia/Tokyo] PHP Notice:  Undefined index: demons in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:23:47 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:23:47 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:23:47 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getImg() on null in /Users/ayaka/dev/objective/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:24:29 Asia/Tokyo] PHP Notice:  Undefined index: demons in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:24:29 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:24:29 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:24:29 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getImg() on null in /Users/ayaka/dev/objective/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:24:30 Asia/Tokyo] PHP Notice:  Undefined index: demons in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:24:30 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:24:30 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:24:30 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getImg() on null in /Users/ayaka/dev/objective/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:25:31 Asia/Tokyo] PHP Notice:  Undefined index: demons in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:25:31 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:25:31 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:25:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getImg() on null in /Users/ayaka/dev/objective/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:26:34 Asia/Tokyo] PHP Notice:  Undefined index: demons in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:26:34 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:26:34 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:26:34 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getImg() on null in /Users/ayaka/dev/objective/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:26:45 Asia/Tokyo] PHP Notice:  Undefined index: demons in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:26:45 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:26:45 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:26:45 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getImg() on null in /Users/ayaka/dev/objective/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:26:45 Asia/Tokyo] PHP Notice:  Undefined index: demons in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:26:45 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:26:45 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:26:45 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getImg() on null in /Users/ayaka/dev/objective/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 227
+[03-May-2020 01:38:16 Asia/Tokyo] POSTされた！
+[03-May-2020 01:38:16 Asia/Tokyo] ゲームスタート！
+[03-May-2020 01:38:16 Asia/Tokyo] PHP Notice:  Undefined offset: 5 in /Users/ayaka/dev/objective/index.php on line 129
+[03-May-2020 01:38:16 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:38:16 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/index.php:0
+[03-May-2020 01:38:16 Asia/Tokyo] PHP   2. init() /Users/ayaka/dev/objective/index.php:158
+[03-May-2020 01:38:16 Asia/Tokyo] PHP   3. createDemon() /Users/ayaka/dev/objective/index.php:142
+[03-May-2020 01:38:16 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Users/ayaka/dev/objective/index.php:130
+Stack trace:
+#0 /Users/ayaka/dev/objective/index.php(142): createDemon()
+#1 /Users/ayaka/dev/objective/index.php(158): init()
+#2 {main}
+  thrown in /Users/ayaka/dev/objective/index.php on line 130
+[03-May-2020 01:41:53 Asia/Tokyo] PHP Notice:  Undefined index: monster in /Users/ayaka/dev/objective/sumple.php on line 279
+[03-May-2020 01:41:53 Asia/Tokyo] PHP Stack trace:
+[03-May-2020 01:41:53 Asia/Tokyo] PHP   1. {main}() /Users/ayaka/dev/objective/sumple.php:0
+[03-May-2020 01:41:53 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Users/ayaka/dev/objective/sumple.php:279
+Stack trace:
+#0 {main}
+  thrown in /Users/ayaka/dev/objective/sumple.php on line 279
